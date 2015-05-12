@@ -41,7 +41,7 @@ window.gest = (function (window) {
 		sensitivity: 80,	//value from 0 to 100 (100 => very sensitive)
 		skinFilter: false,
 		debug: {
-			state: false,
+			state: true,
 			canvas: null,
 			context: null
 		}
