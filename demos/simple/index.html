@@ -28,6 +28,7 @@
 				messageContainerStyle = styles.positioning + styles.copy + styles.general;
 	
 			gest.options.subscribeWithCallback(function(gesture) {
+				gest.options.debug(true);
 				var message = '';
 				if (gesture.direction) {
 					message = gesture.direction;
